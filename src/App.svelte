@@ -5,8 +5,8 @@
   import { getItems } from './data'
   import type { Item } from './data'
 
-  let randomIndex1 = 16
-  let randomIndex2 = 7
+  let randomIndex1 = 0
+  let randomIndex2 = 1
 
   let allItems: Item[] = []
   let loading = true

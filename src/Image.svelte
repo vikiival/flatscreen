@@ -7,6 +7,7 @@
       img.src = src
       img.alt = alt
       img.style.width = '100%'
+      img.classList.add('border', 'border-black')
       img.onload = () => resolve()
       images.set(src, img)
     })

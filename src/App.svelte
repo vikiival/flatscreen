@@ -41,7 +41,7 @@
 
       randomIndex1 = tempRandomIndex1
       randomIndex2 = tempRandomIndex2
-    }, 2000)
+    }, 30_000)
   })
 </script>
 

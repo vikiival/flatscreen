@@ -1,0 +1,29 @@
+{
+  "name": "kodadot-fandom-thingy",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.0.3",
+    "@tsconfig/svelte": "^4.0.1",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "svelte": "^3.57.0",
+    "svelte-check": "^2.10.3",
+    "tailwindcss": "^3.3.2",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2"
+  },
+  "dependencies": {
+    "@kodadot1/minipfs": "^0.3.0-rc.0",
+    "@kodadot1/uniquery": "^0.3.0-rc.0",
+    "qrcode": "^1.5.3"
+  }
+}
